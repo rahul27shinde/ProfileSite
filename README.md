@@ -12,11 +12,15 @@ git clone https://github.com/rahul27shinde/ProfileSite.git
 
 ### Push your code changes
 
-git add .  
-git status (Optional. Just to check if all the files are added to the commit.)  
-git commit -m "<Meaningful commit message>"  
-git push or git push --set-upstream origin feature/importCode (If feature was created locally)  
-
+git add .    
+git status   
+git commit -m "*Meaningful commit message*"   
+git push   
+git push --set-upstream origin feature/importCode (*If feature was created locally*)  
 
 ## JavaScript Commands
 
+
+
+## Markdown Reference
+[adam-p-Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
