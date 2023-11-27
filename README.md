@@ -19,11 +19,11 @@ git push
 git push --set-upstream origin feature/importCode (*If feature was created locally*)  
 
 ## JavaScript Commands
-npm install
-npm install -S react-scripts
-npm start
+npm install  
+npm install -S react-scripts  
+npm start  
 ### Create a react app
-npx create-react-app APP-NAME
+npx create-react-app APP-NAME  
 
 ## Markdown Reference
 [adam-p-Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
