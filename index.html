@@ -1,10 +1,138 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Profile</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #0073e6;
+        }
+        h2 {
+            border-bottom: 2px solid #0073e6;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 5px 0;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: #0073e6;
+            color: white;
+        }
+        .header .name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .header .contact {
+            margin-top: 5px;
+            font-size: 16px;
+        }
+        .header a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-  <h1>Welcome to My Website</h1>
-  <p>I'm a DevOps Engineer.</p>
+    <div class="container">
+        <div class="header">
+            <div class="name">Rahul Shinde</div>
+            <div class="contact">
+                +91 63XXXXXXX | r2shinde7@gmail.com | 
+                <a href="https://www.linkedin.com/in/rahul-shinde-rs80386/" target="_blank">LinkedIn</a> | Pune, India
+            </div>
+        </div>
+
+        <h1>My Resume</h1>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <p><span class="bold">Technologies:</span> Docker, Terraform, Kubernetes, OpenShift, Packer, Veracode, SonarQube, Gradle, Maven</p>
+            <p><span class="bold">Platforms:</span> Azure DevOps, GitLab, AWS (EC2, IAM, S3, VPC, Load Balancing, Route 53), Jenkins</p>
+            <p><span class="bold">Programming:</span> Python, Java, C, C++</p>
+            <p><span class="bold">Scripting:</span> Bash, PowerShell</p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <p><span class="bold">Sinhgad College Of Engineering (SPPU), Pune, India</span></p>
+            <p>B.E. in Computer Science & Engineering (GPA: 9.16/10) | June 2017 – July 2021</p>
+        </div>
+
+        <div class="section">
+            <h2>Work Experience</h2>
+            <p><span class="bold">Persistent Systems Ltd</span> (May 2021 – Present) | Pune, India</p>
+            <p><span class="bold">Client-1 (June 2022 – Present)</span></p>
+            <ul>
+                <li>Orchestrated CI/CD workflows on OpenShift for diverse applications, including Java, .Net, and JavaScript frameworks.</li>
+                <li>Managed CI/CD processes on VM for .Net Applications, ensuring efficient release management.</li>
+                <li>Configured Veracode & SonarQube for code scanning to maintain high standards.</li>
+                <li>Developed Gradle plugin to optimize Java application release management.</li>
+                <li>Led migration from classic to YAML release pipelines for improved scalability.</li>
+            </ul>
+            <p><span class="bold">Client-2 (Sept 2021 – April 2022)</span></p>
+            <ul>
+                <li>Used Terraform and Ansible for Infrastructure as Code (IaC).</li>
+                <li>Developed custom Amazon Machine Images (AMIs) with Packer.</li>
+                <li>Automated database installation/configuration using Bash and PowerShell scripts.</li>
+                <li>Utilized AWS services: EC2, S3, Security Groups, VPC/Subnets, and Secret Manager.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+            <p><span class="bold">Depression Detection on Visual and Textual Data</span></p>
+            <ul>
+                <li>Flask-based webpage detecting depression via webcam feed.</li>
+                <li>Sentiment analysis on user-input text.</li>
+                <li>Used Python, Flask, CNN, Naive Bayes Classifier, Pandas, NLTK, Keras.</li>
+            </ul>
+            <p><span class="bold">Online Handyman</span></p>
+            <ul>
+                <li>Platform for booking services of carpenters, electricians, and plumbers.</li>
+                <li>Data visualization using Matplotlib.</li>
+                <li>Used MySQL, Pandas library, Flask.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Achievements & Certifications</h2>
+            <ul>
+                <li><span class="bold">AWS Certified Cloud Practitioner</span> (10/2022)</li>
+                <li><span class="bold">Microsoft Azure Fundamentals (AZ-900)</span> (08/2021)</li>
+                <li><span class="bold">Bravo – Individual Award</span> (04/2024) – Persistent Systems Ltd</li>
+                <li><span class="bold">High Five - Individual Award</span> (2022) – Persistent Systems Ltd</li>
+                <li><span class="bold">Computer Fundamentals & Multi-OS Installation Certification</span> (02/2021)</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
